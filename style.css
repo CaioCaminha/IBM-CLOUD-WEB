@@ -1,4 +1,49 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+}
+h1{
+    text-align: center;
+    color:rgb(83, 76, 76);
+    
+}
 
 
+.div-form{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 60%;
+    height: 50%;
+    border-radius: 15px;
+    left: 20%;
+    right: 20%;
+    display: block;   
+}
+
+form{
+    position: relative;
+    height: 70%;
+}
+input{
+    width: 200px;
+    height: 25px;
+    display: block;
+    position: relative;
+    margin-bottom: 5px;
+    left: 30%;
+}
+
+label{
+    display: block;
+    position: absolute;
+    left: 15%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+button{
+    position: absolute;
+    margin-top: 15px;
+    left: 35%;
+    width: 150px;
+    height: 30px;
+}
